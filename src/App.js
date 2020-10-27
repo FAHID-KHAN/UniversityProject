@@ -8,6 +8,7 @@ import { Home } from "./Home";
 import { About } from "./About";
 import { NoMatch } from "./NoMatch";
 import Sidebar from "./Components/Sidebar";
+import "./Todo.scss";
 
 function App() {
   return (

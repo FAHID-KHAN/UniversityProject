@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Weather } from "./Weather";
 const GridWrapper = styled.div`
   display: grid;
   grid-gap: 10px;
@@ -11,7 +12,6 @@ const GridWrapper = styled.div`
 `;
 export const About = () => (
   <GridWrapper>
-    <h2>Weather Page</h2>
-    <p>This page will show the weather of the current city and many more</p>
+    <Weather />
   </GridWrapper>
 );

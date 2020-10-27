@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import NewTaskForm from "./Components/NewTaskForm";
+import TaskList from "./Components/TaskList";
+import "./Todo.scss";
 const GridWrapper = styled.div`
   display: grid;
   grid-gap: 10px;
@@ -10,8 +13,9 @@ const GridWrapper = styled.div`
   grid-auto-rows: minmax(25px, auto);
 `;
 export const Home = props => (
-  <GridWrapper>
-    <h2>To Do List page</h2>
-    <p>Here it will show the to do list things to do</p>
-  </GridWrapper>
+  <div className="container">
+    <h1 className="title">Todo List</h1>
+    <NewTaskForm />
+    <TaskList />
+  </div>
 );
