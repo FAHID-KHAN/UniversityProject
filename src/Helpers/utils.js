@@ -13,3 +13,4 @@ export const Weekday = Weekdays[date.getDay()];
 export const Day = date.getDate();
 //Hello Fahid
 //hello man
+//hello
